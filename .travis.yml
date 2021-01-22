@@ -10,6 +10,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
+  access_key_id: 
+    secure: "ASIAWRHTEMJFVATLYTXO"
+  secret_access_key:
+    secure: "4OX3luPjsZ3tTaYKMZv+wgfQa+qp9sCX6aYviAw7"
   region: "us-east-1"
   app: "Docker-CICD"
   environment: "DockerCicd-env"
@@ -17,8 +21,5 @@ deploy:
   bucket_path: "Docker-CICD"
   on:
     branch: master
-  access_key_id: 
-    secure: "ASIAWRHTEMJFVATLYTXO"
-  secret_access_key:
-    secure: "4OX3luPjsZ3tTaYKMZv+wgfQa+qp9sCX6aYviAw7"
+  
 
