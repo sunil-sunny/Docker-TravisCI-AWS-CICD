@@ -13,10 +13,10 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
     secure: $AWS_SECURE_KEY
-  region: "us-east-1"
+  region: "us-east-2"
   app: "Docker-CICD"
   environment: "DockerCicd-env"
-  bucket_name: "elasticbeanstalk-us-east-1-449333977675"
+  bucket_name: "elasticbeanstalk-us-east-2-535292471269"
   bucket_path: "Docker-CICD"
   on:
     branch: master
