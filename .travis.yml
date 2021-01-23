@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "Docker-CICD"
-  environment: "DockerCicd-env"
+  env: "DockerCicd-env"
   bucket_name: "elasticbeanstalk-us-east-2-535292471269"
   bucket_path: "Docker-CICD"
   on:
