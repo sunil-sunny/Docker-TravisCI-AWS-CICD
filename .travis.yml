@@ -17,7 +17,7 @@ deploy:
   bucket_path: "Docker-CICD"
   on:
     branch: master
-  access_key_id: "AKIAXZIPK47S2SYSASAZ"
-  secret_access_key: "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"
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECURE_KEY"
   
 
