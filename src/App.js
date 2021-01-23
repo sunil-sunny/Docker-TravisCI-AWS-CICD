@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          CICD for React Application using Docker and Travis CI
+          CICD for React Application using Docker and Travis CI.
         </p>
         <a
           className="App-link"
